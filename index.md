@@ -6,9 +6,7 @@ profile_picture:
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
-</p>
-
-<p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
+  Zhen Li (李震) is currently a 2nd year Ph.D. candidate at Nankai University, 
+  supervised by Prof. <a href="https://mmcheng.net/cmm">Ming-Ming Cheng</a>.
+  His research interests include computer vision and deep learning, particularly focusing on image/video restoration and enhancement, generation and editing, <i>etc</i>.
 </p>
