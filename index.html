@@ -90,10 +90,10 @@ items:
   <h1 class="page-heading">Selected Publications</h1>
     ( * equal contribution)
     <br/>
-    {% for item in page.items %}
     <table>
+    {% for item in page.items %}
       <tr>
-        <td width ="35%">
+        <td width="35%">
           <img
           style="width: 200px"
           src="{{ item.image.src | absolute_url }}"
@@ -129,7 +129,8 @@ items:
           </paper-info>
         </td>
       </tr>
-    </table>
+    {% endfor %}
+  </table>
     <!-- <div class="work-item">
       <img
         src="{{ item.image.src | absolute_url }}"
@@ -143,5 +144,4 @@ items:
          {{ item.author }} -->
       <!-- </span>
     </div> --> 
-    {% endfor %}
 </div>
