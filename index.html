@@ -1,0 +1,50 @@
+---
+layout: home
+profile_picture:
+  src: /assets/img/profile.png
+  alt: website picture
+items:
+- title: Towards An End-to-End Framework for Flow-Guided Video Inpainting
+  image:
+    src: /assets/img/work/cvpr22-e2fgvi.gif
+    alt: cvpr22e2fgvi
+  author: Zhen Li*, Cheng-Ze Lu*, Qianhua Qin, Chun-Le Guo, Ming-Ming Cheng
+  
+---
+
+<p>
+  Zhen Li (李震) is currently a 2nd year Ph.D. candidate at Nankai University, 
+  supervised by Prof. <a href="https://mmcheng.net/cmm">Ming-Ming Cheng</a>.
+  His research interests include computer vision and deep learning, particularly focusing on image/video restoration and enhancement, generation and editing, <i>etc</i>.
+</p>
+
+<p>
+  <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Tianjin, China
+  <br/>
+  <i class="fas fa-fw fa-envelope"></i>: zhenli1031<i class="fas fa-fw fa-at"></i>gmail.com
+  <br/>
+  <a href="https://github.com/Paper99"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://scholar.google.com/citations?user=utI5YFEAAAAJ&hl=en"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a>
+</p>
+
+<div id="publication">
+  <h1 class="page-heading">Selected Publications</h1>
+    ( * equal contribution)
+    <br/>
+    <br/>
+    {% for item in page.items %}
+    <div class="work-item">
+      <img
+        src="{{ item.image.src | absolute_url }}"
+        alt="{{ item.image.alt }}"
+        class="work-bubble"
+      />
+      <span class="work-text">
+        <strong>{{ item.title }}</strong>
+        <br/>
+        {{ item.author }}
+      </span>
+    </div>
+    {% endfor %}
+</div>

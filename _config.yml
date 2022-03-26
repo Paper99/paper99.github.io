@@ -13,8 +13,8 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Work
-    - name: Blog
+    - name: Publication
+    - name: Misc
 
 footer:
   show_powered_by: true
@@ -26,19 +26,10 @@ footer:
       value: YourWeChatUsername
       link: "#"
   follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
-    - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+    - name: Google scholar
+      link: https://scholar.google.com/citations?user=utI5YFEAAAAJ&hl=en
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - name: RSS
-      link: /feed.xml
+      link: http://github.com/Paper99
 
 # Build settings
 markdown: kramdown
