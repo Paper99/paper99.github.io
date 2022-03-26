@@ -22,55 +22,79 @@
   
 
   
+    
+      
+      
 
   <!-- Primary Meta Tags -->
-  <title>Your Name / Site Title</title>
-  <meta name="title" content="Your Name / Site Title"/>
-  <meta name="description" content="personal description"/>
+  <title>Zhen Li</title>
+  <meta name="title" content="Zhen Li"/>
+  <meta name="description" content="Personal page of Zhen Li."/>
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:site_name" content="Your Name / Site Title"/>
+  <meta property="og:site_name" content="Zhen Li"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://academicpages.github.io/"/>
-  <meta property="og:title" content="Your Name / Site Title"/>
-  <meta property="og:description" content="personal description"/>
-  <meta property="og:image" content="https://academicpages.github.io"/>
+  <meta property="og:url" content="http://localhost:4000/"/>
+  <meta property="og:title" content="Zhen Li"/>
+  <meta property="og:description" content="Personal page of Zhen Li."/>
+  <meta property="og:image" content="http://localhost:4000/assets/img/profile-pic.jpg"/>
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image"/>
-  <meta property="twitter:url" content="https://academicpages.github.io/"/>
-  <meta property="twitter:title" content="Your Name / Site Title"/>
-  <meta property="twitter:description" content="personal description"/>
-  <meta property="twitter:image" content="https://academicpages.github.io"/>
+  <meta property="twitter:url" content="http://localhost:4000/"/>
+  <meta property="twitter:title" content="Zhen Li"/>
+  <meta property="twitter:description" content="Personal page of Zhen Li."/>
+  <meta property="twitter:image" content="http://localhost:4000/assets/img/profile-pic.jpg"/>
+  
+    <meta property="twitter:creator" content="@YourTwitterUsername"/>
+    <meta property="twitter:site" content="@YourTwitterUsername"/>
   
 
-  <link rel="stylesheet" href="https://academicpages.github.io/assets/css/main.css"/>
-  <link rel="canonical" href="https://academicpages.github.io/"/>
-  <link rel="shortcut icon" href="https://academicpages.github.io/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css"/>
+  <link rel="canonical" href="http://localhost:4000/"/>
 
-  <!-- Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XFQTLLKML"></script>
   <script>
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-    ga('create', "", "auto");
-    ga('send', "pageview");
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4XFQTLLKML');
   </script>
-  <script async src="https://www.google-analytics.com/analytics.js"></script>
-
-
+  
 </head>
 
 
   <body>
     <header class="site-header">
   <div class="wrapper">
-    <a class="site-title" href="https://academicpages.github.io/">
-      <img src="https://academicpages.github.io/assets/img/title.png" alt="Your Name / Site Title" />
+    <a class="site-title" href="http://localhost:4000/">
+      <img src="http://localhost:4000/assets/img/title.png" alt="Zhen Li" />
     </a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon"></a>
 
       <div class="menu">
+        
+          
+          
+          <a class="page-link" href="http://localhost:4000/">
+            Home
+          </a>
+        
+          
+          
+          <a class="page-link" href="http://localhost:4000/work">
+            Work
+          </a>
+        
+          
+          
+          <a class="page-link" href="http://localhost:4000/blog">
+            Blog
+          </a>
         
       </div>
     </nav>
@@ -82,17 +106,15 @@
       <div class="wrapper">
         <div class="home">
           <img
-            src="https://academicpages.github.io/assets/img/profile-pic.jpg"
+            src="http://localhost:4000/assets/img/profile.png"
             alt="website picture"
             class="profile-pic"
           />
 
           <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
-</p>
-
-<p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
+  Zhen Li (李震) is currently a 2nd year Ph.D. candidate at Nankai University, 
+  supervised by Prof. <a href="https://mmcheng.net/cmm">Ming-Ming Cheng</a>.
+  His research interests include computer vision and deep learning, particularly focusing on image/video restoration and enhancement, generation and editing, <i>etc</i>.
 </p>
 
         </div>
@@ -102,10 +124,40 @@
     <footer class="site-footer">
   <div class="wrapper">
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <!-- <div class="footer-col footer-col-1">
         <h4>CONTACT</h4>
 
         <div class="social-links">
+          
+            <div class="social-link contact-links">
+
+              
+              <img
+                src="http://localhost:4000/assets/img/icons/email.png"
+                alt="email"
+              />
+              <a href="mailto:yourmail@domain.com" id="email-link">
+                
+                  yourmail@domain.com
+                
+              </a>
+            </div>
+
+          
+            <div class="social-link contact-links">
+
+              
+              <img
+                src="http://localhost:4000/assets/img/icons/wechat.png"
+                alt="wechat"
+              />
+              <a href="#" id="wechat-link">
+                
+                  YourWeChatUsername
+                
+              </a>
+            </div>
+
           
         </div>
       </div>
@@ -115,22 +167,131 @@
 
         <div class="social-links follow-links">
           
-        </div>
-      </div>
+            <div class="social-link">
 
+              
+              <img
+                src="http://localhost:4000/assets/img/icons/twitter.png"
+                alt="twitter"
+              />
+              <a href="http://twitter.com/YourTwitterUsername">
+                
+                  Twitter
+                
+              </a>
+            </div>
+
+          
+            <div class="social-link">
+
+              
+              <img
+                src="http://localhost:4000/assets/img/icons/facebook.png"
+                alt="facebook"
+              />
+              <a href="http://facebook.com/YourFacebookUsername">
+                
+                  Facebook
+                
+              </a>
+            </div>
+
+          
+            <div class="social-link">
+
+              
+              <img
+                src="http://localhost:4000/assets/img/icons/linkedin.png"
+                alt="linkedin"
+              />
+              <a href="http://linkedin.com/in/YourLinkedInUsername">
+                
+                  LinkedIn
+                
+              </a>
+            </div>
+
+          
+            <div class="social-link">
+
+              
+              <img
+                src="http://localhost:4000/assets/img/icons/github.png"
+                alt="github"
+              />
+              <a href="http://github.com/YourGitHubUsername">
+                
+                  GitHub
+                
+              </a>
+            </div>
+
+          
+            <div class="social-link">
+
+              
+              <img
+                src="http://localhost:4000/assets/img/icons/dribbble.png"
+                alt="dribbble"
+              />
+              <a href="https://dribbble.com/YourDribbbleUsername">
+                
+                  Dribbble
+                
+              </a>
+            </div>
+
+          
+            <div class="social-link">
+
+              
+              <img
+                src="http://localhost:4000/assets/img/icons/rss.png"
+                alt="rss"
+              />
+              <a href="/feed.xml">
+                
+                  RSS
+                
+              </a>
+            </div>
+
+          
+        </div>
+      </div> -->
+
+      
+        <div class="footer-col footer-col-3 powered-by">
+          <p>
+            &copy; Zhen Li | 2022
+          </p>
+        </div>
       
     </div>
   </div>
 </footer>
 
 
+  
+
+  
+    
+    
+
+
+  <div id="wechat-widget">
+    <p>
+      Find me on WeChat with the ID <strong>YourWeChatUsername</strong>, or scan my QR code:
+    </p>
+
+    <img src="http://localhost:4000/assets/img/wechat-qr-code.png" alt="QR code" id="qr-code" />
+  </div>
 
 
 
 
-
-    <script type="text/javascript" src="https://academicpages.github.io/assets/js/vendor/cash-4.1.5.min.js"></script>
-<script type="text/javascript" src="https://academicpages.github.io/assets/js/site.js"></script>
+    <script type="text/javascript" src="http://localhost:4000/assets/js/vendor/cash-4.1.5.min.js"></script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/site.js"></script>
 
   </body>
 </html>
