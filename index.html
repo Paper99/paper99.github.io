@@ -4,6 +4,15 @@ profile_picture:
   src: /assets/img/zhenli.jpeg
   alt: website picture
 items:
+- title: Designing An Illumination-Aware Network for Deep Image Relighting
+  image:
+    src: /assets/img/work/tip22-ian.gif
+    alt: tip22-ian
+  author: Zuo-Liang Zhu*, <b>Zhen Li</b>*, Ruixun Zhang, Chun-Le Guo, Ming-Ming Cheng
+  pubname: IEEE Transactions on Image Processing (TIP), 2022
+  code: https://github.com/NK-CS-ZZL/IAN
+  paper: https://arxiv.org/abs/2207.10582
+  bibtex: 
 - title: Towards An End-to-End Framework for Flow-Guided Video Inpainting
   image:
     src: /assets/img/work/cvpr22-e2fgvi.gif
@@ -118,11 +127,11 @@ items:
             {% else %}
               [Code]
             {% endif %}
-            {% if item.bibtex and item.bibtex != "" and item.bibtex != nil %}
+            <!-- {% if item.bibtex and item.bibtex != "" and item.bibtex != nil %}
               [<a href="{{ item.bibtex }}">Bibtex</a>]
             {% else %}
               [Bibtex (TBD)]
-            {% endif %}
+            {% endif %} -->
             <!-- [<a href="{{ item.paper }}">Paper</a>]
             [<a href="{{ item.code }}">Code</a>]
             [<a href="{{ item.code }}">Bibtex</a>] -->
